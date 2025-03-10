@@ -1,0 +1,209 @@
+body {
+    font-family: "Poor Story", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+/* 헤더 영역 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    padding: 0px 40px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    margin-top: 72px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-list {
+    display: inline;
+}
+
+.project-name {
+    font-size: 24px;
+    font-weight: 800;
+    color: #ec50dd;
+}
+
+#nav-contact {
+    color: #ec50dd;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+
+    border-radius: 4px;
+    border: 2px solid #ec50dd;
+}
+
+#nav-contact:hover {
+    background-color: #ec50dd;
+    color: #fff;
+}
+
+#nav-contact:active {
+    background-color: rgb(0, 255, 174);
+    color: #ec50dd;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 자기소개 세션 */
+
+/* 텍스트 사이즈 */
+.sub-heading{
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 600px;
+    line-height: 1.2;
+    letter-spacing: -0.1px;
+}
+
+.body-text {
+    font-size: 24px;
+    font-weight: 400px; 
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+}
+
+/* 텍스트 컬러 */
+.text-color-primary {
+    color: #ec50dd;
+}
+
+.text-color-default {
+    color: #1c1c1c;
+}
+
+#first {
+    background-color: aquamarine;
+    height: 640px;
+    display: flex;
+    align-items: center;
+}
+
+#cont {
+    max-width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+    padding: 0px 40px;
+    margin: 0px auto;
+}
+
+.title-set {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.paragraph {
+    max-width: 70%;
+}
+
+/* 버튼디자인 */
+.btn-primary {
+    display: flex;
+    align-items: center;
+    height : 48px;
+    padding: 2px 20px;
+    border-radius: 100px;
+    background-color: #ec50dd;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(70, 76, 255);
+    font-weight: 600;
+    transition: background-color 0.4s ease;
+}
+
+/* 포트폴리오 */
+.list {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1320px;
+    margin: 0 auto;
+    gap: 24px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 40px 0px;
+}
+
+.list-item {
+    display: flex;
+    flex-shrink: 0;
+    gap : 12px;
+    width: 480px;
+    height: 240px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(188, 188, 188);
+    padding: 12px;
+}
+
+.list-item:hover {
+    transform: scale(1.02);
+}
+
+.list-item img {
+    width: 240px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-contents {
+    display: flex;
+    gap : 12px;
+    flex-direction: column;
+    padding-top: 8px;
+}
+
+.project-name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.project-date {
+    font-size: 12px;
+    color: #bababa;
+}
+
+.project-desc {
+    padding-top: 16px;
+    font-size: 16px;
+}
+
+.btn-small {
+    display: flex;
+    align-items: center;
+    height : 32px;
+    padding: 2px 16px;
+    border-radius: 100px;
+    background-color: #ec50dd;
+    color: #fff;
+    font-size: 12px;
+}

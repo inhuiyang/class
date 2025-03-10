@@ -1,0 +1,97 @@
+body {
+    font-family: "Poor Story", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+/* 헤더 영역 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    padding: 0px 40px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main {
+    margin-top: 72px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-list {
+    display: inline;
+}
+
+#nav-contact {
+    color: #ec50dd;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+
+    border-radius: 4px;
+    border: 2px solid #ec50dd;
+}
+
+#nav-contact:hover {
+    background-color: #ec50dd;
+    color: #fff;
+}
+
+#nav-contact:active {
+    background-color: rgb(0, 255, 174);
+    color: #ec50dd;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    margin-top: 72px;
+}
+
+/* 메인 */
+img {
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    gap : 40px;
+    padding: 200px 40px;
+}
+/* 가운데 오게 하고 싶으면 디브로 한번 더 묶어서 마진값*/
+
+.sub-heading {
+    font-size: 12px;
+    color : #777777;
+    padding-bottom: 8px;
+}
+
+.text {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.sns:hover {
+    font-weight: 600;
+    color: #ec50dd;
+}
